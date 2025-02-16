@@ -6,8 +6,6 @@ This project focuses on building a **Credit Risk Model** to predict the likeliho
 ## 🛠 Technologies Used
 - **Python** (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn)
 - **Machine Learning** (Logistic Regression, Decision Trees, Random Forest, XGBoost)
-- **SQL** (for data extraction and preprocessing)
-- **Power BI / Tableau** (for visualizations)
 
 ## 📂 Project Structure
 ```
@@ -23,7 +21,7 @@ This project focuses on building a **Credit Risk Model** to predict the likeliho
 
 ## 🔍 Data Description
 The dataset contains loan application details with features such as:
-- **Applicant Information**: Age, Employment Type, Income
+- **Applicant Information**: Age, Employment Type, Income, Education
 - **Loan Details**: Loan Amount, Loan Term, Interest Rate
 - **Credit History**: Previous Defaults, Credit Score
 - **Target Variable**: `Default` (1 - Default, 0 - No Default)
