@@ -60,6 +60,8 @@ Feel free to fork the repository and submit pull requests with improvements!
 This project is licensed under the MIT License.
 
 ---
-### ✨ Author: [Your Name]
-🔗 [LinkedIn](your-link) | 📧 [Email](your-email)
+### ✨ Author: [Lebogang Swaratlhe]
+🔗 [LinkedIn](www.linkedin.com/in/
+lebogang-swaratlhe-b67415197
+) | 📧 [Email](lebogangswaratlhe@gmail.com)
 
