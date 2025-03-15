@@ -5,7 +5,7 @@ This project focuses on building a **Credit Risk Model** to predict the likeliho
 
 ## 🛠 Technologies Used
 - **Python** (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn)
-- **Machine Learning** (Logistic Regression, Decision Trees, Random Forest, XGBoost)
+- **Machine Learning** (Logistic Regression, Decision Trees, Random Forest)
 
 ## 📂 Project Structure
 ```
