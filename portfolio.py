@@ -19,7 +19,7 @@ if page == "Home":
 
     # Add the GIF
     try:
-        st.image(r"C:\Users\lebog\Documents\Data Science portfolio\Data-Science-Portfolio\data science pic.webp", caption="Welcome to my world!", width=400)
+        st.image(r"data science pic.webp", caption="Welcome to my world!", width=400)
     except FileNotFoundError:
         st.error("Image not found! Please check the file path.")
 
@@ -79,7 +79,7 @@ elif page == "About Me":
 
     # Add an image with error handling
     try:
-        st.image(r"C:\Users\lebog\Documents\Data Science portfolio\Data-Science-Portfolio\my image.jpg", caption="That's me!", width=200)
+        st.image(r"my image.jpg", caption="That's me!", width=200)
     except FileNotFoundError:
         st.error("Image not found! Please check the file path.")
 
@@ -89,7 +89,7 @@ elif page == "About Me":
     # University of Pretoria
     col1, col2 = st.columns([1, 4])
     with col1:
-        st.image(r"C:\Users\lebog\Documents\Data Science portfolio\Data-Science-Portfolio\up logo.png", width=200)
+        st.image(r"up logo.png", width=200)
     with col2:
         st.write("""
         - **Bachelor of Science (BSc) in Mathematical Statistics**  
@@ -100,7 +100,7 @@ elif page == "About Me":
     # University of South Africa (UNISA)
     col1, col2 = st.columns([1, 4])
     with col1:
-        st.image(r"C:\Users\lebog\Documents\Data Science portfolio\Data-Science-Portfolio\unisa logo.png", width=100)
+        st.image(r"unisa logo.png", width=100)
     with col2:
         st.write("""
         - **Bachelor of Science (BSc) Honours Degree in Statistics**  
@@ -111,7 +111,7 @@ elif page == "About Me":
     # Explore AI Academy
     col1, col2 = st.columns([1, 4])
     with col1:
-        st.image(r"C:\Users\lebog\Documents\Data Science portfolio\Data-Science-Portfolio\explore ai.png", width=200)
+        st.image(r"explore ai.png", width=200)
     with col2:
         st.write("""
         - **Data Science Learnership**  
@@ -142,7 +142,7 @@ elif page == "Projects":
     # Project 1: Credit Risk Modeling
     col1, col2 = st.columns([1, 4])
     with col1:
-        st.image(r"C:\Users\lebog\Documents\Data Science portfolio\Data-Science-Portfolio\credit risk pic.webp", width=350)  # Replace with your project image
+        st.image(r"credit risk pic.webp", width=350)  # Replace with your project image
     with col2:
         st.write("""
         ### **Credit Risk Modeling**  
@@ -155,7 +155,7 @@ elif page == "Projects":
     # Project 2: News Article Classification
     col1, col2 = st.columns([1, 4])
     with col1:
-        st.image(r"C:\Users\lebog\Documents\Data Science portfolio\Data-Science-Portfolio\news article pic.png", width=350)  # Replace with your project image
+        st.image(r"news article pic.png", width=350)  # Replace with your project image
     with col2:
         st.write("""
         ### **News Article Classification**  
@@ -168,7 +168,7 @@ elif page == "Projects":
     # Project 3: Predicting CO2 Emissions
     col1, col2 = st.columns([1, 4])
     with col1:
-        st.image(r"C:\Users\lebog\Documents\Data Science portfolio\Data-Science-Portfolio\co2 pic.png", width=350)  # Replace with your project image
+        st.image(r"co2 pic.png", width=350)  # Replace with your project image
     with col2:
         st.write("""
         ### **Predicting CO2 Emissions from the Agri-food Sector**  
@@ -181,7 +181,7 @@ elif page == "Projects":
     # Project 4: Anime Recommender System
     col1, col2 = st.columns([1, 4])
     with col1:
-        st.image(r"C:\Users\lebog\Documents\Data Science portfolio\Data-Science-Portfolio\anime.png", width=350)  # Replace with your project image
+        st.image(r"anime.png", width=350)  # Replace with your project image
     with col2:
         st.write("""
         ### **Anime Recommender System**  
