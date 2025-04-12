@@ -36,8 +36,7 @@ if page == "Home":
     - 📝 **Natural Language Processing (NLP)**: Proficient in text processing and classification tasks.  
     - 🐍 **Technical Proficiency**: Scikit-learn, Pandas, NLTK, Computer Vision.  
     - 🧑‍💻 **Programming Languages**: Python, R, SQL.  
-    - 🧠 **Deep Learning**: Proficient in designing and training neural networks using TensorFlow and Keras.  
-    - 🌍 **Geospatial Analytics**: Experienced in working with georeferenced satellite images and LiDAR data. 
+    - 🧠 **Deep Learning**: Proficient in designing and training neural networks using TensorFlow and Keras.   
     - 🛠️ **Collaboration and Tools**: Proficient in Git and Jupyter Notebooks for collaborative development.  
     - ⚙️ **Web Development**: Streamlit.  
     - 🌟 **Soft Skills**: Team Leadership, Project Management, Communication, Adaptability, Storytelling.  
@@ -191,6 +190,21 @@ elif page == "Projects":
         - **Link**: [GitHub](https://github.com/LeboSwaratlhe/Anime-Recommender-System-Project-2025.git)  
         - **Deployed app**: [Streamlit](https://group2-2407ftds.streamlit.app/)
         """)
+        
+# Project 5: Bank Customer Churn Predictive 
+    col1, col2 = st.columns([1, 4])
+    with col1:
+        st.image(r"bank customer.png", width=350)  # Replace with your project image
+    with col2:
+        st.write("""
+        ### **Bank Customer Churn Predictive project**  
+        - **Role**: Data Scientist 
+        - **Description**: This project develops a predictive model to identify bank customers at risk of churning (discontinuing services)  
+        - **Tech Stack**: 
+        - **Link**: [GitHub](https://github.com/LeboSwaratlhe/Bank-Customer-Churn-Prediction.git)  
+        - **Deployed app**: [Streamlit](https://leboswaratlhe-bank-customer--bankcustomerchurnprediction-sw8vcj.streamlit.app/)
+        """)        
+
 # Contact Page
 elif page == "Contact":
     st.title("Contact Me")
