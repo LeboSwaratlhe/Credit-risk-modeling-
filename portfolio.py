@@ -200,7 +200,7 @@ elif page == "Projects":
         ### **Bank Customer Churn Predictive project**  
         - **Role**: Data Scientist 
         - **Description**: This project develops a predictive model to identify bank customers at risk of churning (discontinuing services)  
-        - **Tech Stack**: 
+        - **Tech Stack**: The tech stack for your Streamlit app includes **Streamlit** for the UI, **Pandas**, **NumPy**, **Scikit-learn**, **TensorFlow/Keras** for data processing and modeling, and **Plotly**, **Seaborn**, and **Matplotlib** for visualizations
         - **Link**: [GitHub](https://github.com/LeboSwaratlhe/Bank-Customer-Churn-Prediction.git)  
         - **Deployed app**: [Streamlit](https://leboswaratlhe-bank-customer--bankcustomerchurnprediction-sw8vcj.streamlit.app/)
         """)        
