@@ -19,7 +19,7 @@ if page == "Home":
 
     # Add the GIF
     try:
-        st.image(r"data science pic.webp", caption="Welcome to my world!", width=400)
+        st.image(r"data science pic.webp", width=400)
     except FileNotFoundError:
         st.error("Image not found! Please check the file path.")
 
